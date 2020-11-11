@@ -1,39 +1,3 @@
 /* =============
     Demo
 ============= */
-#svg-demo{
-    display: grid;
-    grid-template-columns: auto 100% auto;
-    grid-template-areas: ". svg .";
-    justify-content: center;
-    align-items: center;
-    >div{
-        grid-area: svg;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        svg{
-            width: 100%;
-            height: 100%;
-            >#big-circle-load{
-                visibility: hidden;
-            }
-            >#med-circle-load{
-                visibility: hidden;
-            }
-            >#small-circle-load{
-                visibility: hidden;
-            }
-            #dot-blue{
-                visibility: hidden;
-            }
-        }
-    }
-}
-#color{
-    height: 100%;
-    width: 100%;
-    background-color: #F7743C;
-    visibility: hidden;
- }
