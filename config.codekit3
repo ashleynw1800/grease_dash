@@ -41,6 +41,14 @@
 		"oAP": "/dev/global/scripts.html",
 		"oF": 0
 		},
+	"/dev/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/index.html",
+		"oF": 2
+		},
 	"/dev/js/demo.js": {
 		"bF": 0,
 		"ft": 64,
@@ -203,6 +211,19 @@
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_demo.css",
 		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/deploy/css/styles.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
