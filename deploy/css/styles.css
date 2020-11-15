@@ -379,3 +379,15 @@ textarea {
 /* =============
     Demo
 ============= */
+#dash-container {
+  display: grid;
+  grid-template-columns: auto 60% auto;
+  grid-template-areas: ". grease ."; }
+  #dash-container > div {
+    grid-area: grease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; }
+    #dash-container > div svg {
+      width: 100%; }

@@ -1,0 +1,20 @@
+/* =============
+    Demo
+============= */
+#dash-container{
+    display: grid;
+    grid-template-columns: auto 60% auto;
+    grid-template-areas: ". grease .";
+
+    >div{
+        grid-area: grease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        svg{
+            width: 100%;
+        }
+    }
+}

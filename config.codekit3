@@ -17,12 +17,110 @@
 		"oAP": "/assets/grease dash.sketch",
 		"oF": 0
 		},
-	"/dev/content/demo.kit": {
+	"/deploy/css/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/deploy/css/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/deploy/grease-dash-svg.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/grease-dash-svg.html",
+		"oF": 0
+		},
+	"/dev/content/center/buttons.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/center/buttons.html",
+		"oF": 0
+		},
+	"/dev/content/center/music.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/center/music.html",
+		"oF": 0
+		},
+	"/dev/content/fuel/fuel.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/fuel/fuel.html",
+		"oF": 0
+		},
+	"/dev/content/grease-dash-svg.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/grease-dash-svg.html",
+		"oF": 0
+		},
+	"/dev/content/grease-dash-svg.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/content/demo.html",
+		"oAP": "/deploy/grease-dash-svg.html",
+		"oF": 2
+		},
+	"/dev/content/logos/ford.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/logos/ford.html",
+		"oF": 0
+		},
+	"/dev/content/logos/grease.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/logos/grease.html",
+		"oF": 0
+		},
+	"/dev/content/rpm/rpm.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/rpm/rpm.html",
+		"oF": 0
+		},
+	"/dev/content/speed/speed.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/speed/speed.html",
+		"oF": 0
+		},
+	"/dev/content/top/top.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/top/top.html",
+		"oF": 0
+		},
+	"/dev/content/volts/volts.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/volts/volts.html",
 		"oF": 0
 		},
 	"/dev/global/head.kit": {
@@ -48,17 +146,6 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
-		},
-	"/dev/js/demo.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/demo-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
@@ -201,7 +288,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_demo.scss": {
+	"/dev/scss/sections/_grease_dash.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -209,7 +296,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_demo.css",
+		"oAP": "/dev/scss/sections/_grease_dash.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
