@@ -391,3 +391,13 @@ textarea {
     height: 100vh; }
     #dash-container > div svg {
       width: 100%; }
+      #dash-container > div svg > #clock {
+        visibility: hidden; }
+      #dash-container > div svg > #speedometer {
+        visibility: hidden; }
+      #dash-container > div svg > #rpm {
+        visibility: hidden; }
+      #dash-container > div svg > #volts {
+        visibility: hidden; }
+      #dash-container > div svg > #fuel-gauge {
+        visibility: hidden; }

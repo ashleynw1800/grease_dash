@@ -15,6 +15,21 @@
 
         svg{
             width: 100%;
+            >#clock{
+                visibility: hidden;
+            }
+            >#speedometer{
+                visibility: hidden;
+            }
+            >#rpm{
+                visibility: hidden;
+            }
+            >#volts{
+                visibility: hidden;
+            }
+            >#fuel-gauge{
+                visibility: hidden;
+            }
         }
     }
 }
