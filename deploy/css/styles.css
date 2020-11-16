@@ -408,3 +408,7 @@ textarea {
         visibility: hidden; }
       #dash-container > div svg #song {
         visibility: hidden; }
+      #dash-container > div svg #ford-logo {
+        visibility: hidden; }
+      #dash-container > div svg #logo-reveal-svg {
+        z-index: 5; }

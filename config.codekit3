@@ -94,6 +94,14 @@
 		"oAP": "/dev/content/logos/grease.html",
 		"oF": 0
 		},
+	"/dev/content/logos/logo-reveal.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/logos/logo-reveal.html",
+		"oF": 0
+		},
 	"/dev/content/rpm/rpm.kit": {
 		"cB": 0,
 		"ft": 2048,

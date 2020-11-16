@@ -40,6 +40,12 @@
             #song{
                 visibility: hidden;
             }
+            #ford-logo{
+                visibility: hidden;
+            }
+            #logo-reveal-svg{
+                z-index: 5;
+            }
         }
     }
 }
