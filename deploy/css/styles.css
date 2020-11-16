@@ -381,23 +381,30 @@ textarea {
 ============= */
 #dash-container {
   display: grid;
-  grid-template-columns: auto 60% auto;
+  grid-template-columns: auto 80% auto;
   grid-template-areas: ". grease ."; }
   #dash-container > div {
     grid-area: grease;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; }
+    height: 100%;
+    width: 100%; }
     #dash-container > div svg {
       width: 100%; }
-      #dash-container > div svg > #clock {
+      #dash-container > div svg #clock {
         visibility: hidden; }
-      #dash-container > div svg > #speedometer {
+      #dash-container > div svg #speedometer {
         visibility: hidden; }
-      #dash-container > div svg > #rpm {
+      #dash-container > div svg #rpm {
         visibility: hidden; }
-      #dash-container > div svg > #volts {
+      #dash-container > div svg #volts {
         visibility: hidden; }
-      #dash-container > div svg > #fuel-gauge {
+      #dash-container > div svg #fuel-gauge {
+        visibility: hidden; }
+      #dash-container > div svg #grease-logo {
+        visibility: hidden; }
+      #dash-container > div svg #buttons {
+        visibility: hidden; }
+      #dash-container > div svg #song {
         visibility: hidden; }

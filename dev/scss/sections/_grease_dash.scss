@@ -3,7 +3,7 @@
 ============= */
 #dash-container{
     display: grid;
-    grid-template-columns: auto 60% auto;
+    grid-template-columns: auto 80% auto;
     grid-template-areas: ". grease .";
 
     >div{
@@ -11,23 +11,33 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 100%;
+        width: 100%;
 
         svg{
             width: 100%;
-            >#clock{
+            #clock{
                 visibility: hidden;
             }
-            >#speedometer{
+            #speedometer{
                 visibility: hidden;
             }
-            >#rpm{
+            #rpm{
                 visibility: hidden;
             }
-            >#volts{
+            #volts{
                 visibility: hidden;
             }
-            >#fuel-gauge{
+            #fuel-gauge{
+                visibility: hidden;
+            }
+            #grease-logo{
+                visibility: hidden;
+            }
+            #buttons{
+                visibility: hidden;
+            }
+            #song{
                 visibility: hidden;
             }
         }

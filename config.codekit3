@@ -27,14 +27,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/grease-dash-svg.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/grease-dash-svg.html",
-		"oF": 0
-		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -165,17 +157,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/logos/ford-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/scripts-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/scripts-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
