@@ -411,4 +411,5 @@ textarea {
       #dash-container > div svg #ford-logo {
         visibility: hidden; }
       #dash-container > div svg #logo-reveal-svg {
-        z-index: 5; }
+        z-index: 5;
+        visibility: hidden; }
