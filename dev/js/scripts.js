@@ -11,7 +11,7 @@ import {buttonsAnimation} from "./sequences/buttons.js";
 const mainTL = gsap.timeline()
 mainTL.add(fordAnimation())
         .add(topAnimation())
-        .add(speedAnimation())
-        .add(buttonsAnimation());
+        .add(speedAnimation(), "-=0.3")
+        .add(buttonsAnimation(), "-=0.5");
 
 GSDevTools.create();

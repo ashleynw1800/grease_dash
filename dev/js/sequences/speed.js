@@ -12,7 +12,7 @@ gsap.set("#miles",{transformOrigin:"center"});
 const speedTL = gsap.timeline();
 speedTL.from("#white-speed", {duration:1.5, drawSVG: "0", visibility:"visible"})
 .to("#white-speed", {visibility:"visible"})
-.from("#speed-rings", {duration:0.5, scale:0.5, alpha:0, visibility:"visible"})
+.from("#speed-rings", {duration:0.5, scale:0.5, alpha:0, visibility:"visible"}, "-=0.3")
 .to("#speed-rings", {visibility:"visible"})
 .from("#speed-numbers", {duration:0.5, alpha:0, visibility:"visible"}, "-=0.3")
 .to("#speed-numbers", {visibility:"visible"})
