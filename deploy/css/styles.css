@@ -413,3 +413,5 @@ textarea {
       #dash-container > div svg #logo-reveal-svg {
         z-index: 5;
         visibility: hidden; }
+      #dash-container > div svg #speed-middle {
+        position: fixed; }
