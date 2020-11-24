@@ -31,7 +31,7 @@ musicTL.to("#button-4", {duration:0.3, scale:0.7})
 .to("#GREASELIGHTNING", {visibility:"visible"}, "song-stay")
 .from("#song-line-down", {duration:0.5, drawSVG: "0", visibility:"visible"}, "-=0.3")
 .to("#song-line-down", {visibility:"visible"})
-// .to("#song-line-white", {duration:120, x:460});
+.to("#song-line-white", {duration:120, x:460});
 
 export function musicAnimation() {
 

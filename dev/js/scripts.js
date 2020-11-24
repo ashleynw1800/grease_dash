@@ -18,6 +18,6 @@ mainTL.add(fordAnimation())
         .add(buttonsAnimation(), "-=0.5")
         .add(rpmAnimation())
         .add(musicAnimation(), "+=1")
-        .add(startAnimation(), "+=1");
+        .add(startAnimation(), "-=119");
 
 GSDevTools.create();
