@@ -21,8 +21,6 @@ speedTL.from("#white-speed", {duration:1.5, drawSVG: "0", visibility:"visible"})
         .to("#speed-center", {visibility:"visible"})
         .from("#speed-hand", {duration:0.3, scale:0.5, alpha:0, visibility:"visible"}, "last-speed")
         .to("#speed-hand", {visibility:"visible"}, "last-speed-stay")
-        .to("#speed-middle", {duration:0.8, rotation:120})
-        .to("#speed-middle", {duration:0.8, rotation:0})
         .from("#miles", {duration:0.5, scale:0.5, alpha:0, visibility:"visible"}, "last-speed")
         .to("#miles", {visibility:"visible"}, "last-speed-stay");
 

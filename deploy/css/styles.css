@@ -415,3 +415,6 @@ textarea {
         visibility: hidden; }
       #dash-container > div svg #speed-middle {
         position: fixed; }
+      #dash-container > div svg #volt-fill {
+        visibility: hidden;
+        z-index: -5; }

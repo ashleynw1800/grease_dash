@@ -50,6 +50,10 @@
             #speed-middle{
                 position: fixed;
             }
+            #volt-fill{
+                visibility: hidden;
+                z-index: -5;
+            }
         }
     }
 }
