@@ -19,9 +19,9 @@ speedTL.from("#white-speed", {duration:1.5, drawSVG: "0", visibility:"visible"})
         .to("#speed-numbers", {visibility:"visible"})
         .from("#speed-center", {duration:0.3, scale:0.5, alpha:0, visibility:"visible"}, "-=0.3")
         .to("#speed-center", {visibility:"visible"})
-        .from("#speed-hand", {duration:0.3, scale:0.5, alpha:0, visibility:"visible"}, "last-speed")
+        .from("#speed-hand", {duration:0.4, scale:0.5, alpha:0, visibility:"visible"}, "last-speed")
         .to("#speed-hand", {visibility:"visible"}, "last-speed-stay")
-        .from("#miles", {duration:0.5, scale:0.5, alpha:0, visibility:"visible"}, "last-speed")
+        .from("#miles", {duration:0.4, scale:0.5, alpha:0, visibility:"visible"}, "last-speed")
         .to("#miles", {visibility:"visible"}, "last-speed-stay");
 
 export function speedAnimation() {

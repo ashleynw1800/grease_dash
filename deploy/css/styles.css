@@ -435,3 +435,5 @@ textarea {
         font-family: rift-soft, sans-serif;
         font-weight: 500;
         font-style: normal; }
+      #dash-container > div svg #light {
+        visibility: hidden; }
