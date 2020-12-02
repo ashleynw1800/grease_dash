@@ -382,7 +382,8 @@ textarea {
 #dash-container {
   display: grid;
   grid-template-columns: auto 70% auto;
-  grid-template-areas: ". grease ."; }
+  grid-template-areas: ". grease .";
+  background-color: black; }
   #dash-container > div {
     grid-area: grease;
     display: flex;
@@ -418,3 +419,19 @@ textarea {
       #dash-container > div svg #volt-fill {
         visibility: hidden;
         z-index: -5; }
+      #dash-container > div svg #time-start {
+        font-family: rift-soft, sans-serif;
+        font-weight: 500;
+        font-style: normal; }
+      #dash-container > div svg #time-end {
+        font-family: rift-soft, sans-serif;
+        font-weight: 500;
+        font-style: normal; }
+      #dash-container > div svg #time-1 {
+        font-family: rift-soft, sans-serif;
+        font-weight: 500;
+        font-style: normal; }
+      #dash-container > div svg #time-2 {
+        font-family: rift-soft, sans-serif;
+        font-weight: 500;
+        font-style: normal; }

@@ -13,9 +13,9 @@ gsap.set("#speed-middle",{transformOrigin:"right top"});
 const speedTL = gsap.timeline();
 speedTL.from("#white-speed", {duration:1.5, drawSVG: "0", visibility:"visible"})
         .to("#white-speed", {visibility:"visible"})
-        .from("#speed-rings", {duration:0.5, scale:0.5, alpha:0, visibility:"visible"}, "-=0.3")
+        .from("#speed-rings", {duration:0.5, scale:0.5, alpha:0, visibility:"visible"})
         .to("#speed-rings", {visibility:"visible"})
-        .from("#speed-numbers", {duration:0.5, alpha:0, visibility:"visible"}, "-=0.3")
+        .from("#speed-numbers", {duration:0.5, alpha:0, visibility:"visible"})
         .to("#speed-numbers", {visibility:"visible"})
         .from("#speed-center", {duration:0.3, scale:0.5, alpha:0, visibility:"visible"}, "-=0.3")
         .to("#speed-center", {visibility:"visible"})

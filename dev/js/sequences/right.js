@@ -34,7 +34,11 @@ rpmTL.from("#white-rpm", {duration:1.5, drawSVG: "0", visibility:"visible"}, "ri
 .from("#FUEL", {duration:0.4, alpha:0, visibility:"visible"}, "right-labels")
 .to("#FUEL", {visibility:"visible"}, "right-labels-stay")
 .from("#fuel-tick", {duration:0.4, alpha:0, visibility:"visible"}, "right-labels")
-.to("#fuel-tick", {visibility:"visible"}, "right-labels-stay");
+.to("#fuel-tick", {visibility:"visible"}, "right-labels-stay")
+.to("#volt-fill", {visibility:"visible", alpha:0.5})
+.to("#volt-fill", {duration:1, y:-152}, "load-up")
+.to("#fuel-tick", {duration:1, y:-206}, "load-up")
+.to("#rpm-middle", {duration:1, rotation:150}, "load-up");
 
 export function rpmAnimation() {
 

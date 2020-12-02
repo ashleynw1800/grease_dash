@@ -27,11 +27,15 @@ musicTL.to("#button-4", {duration:0.3, scale:0.7})
 .to("#time-start", {visibility:"visible"}, "song-stay")
 .from("#time-end", {duration:1, y:30, alpha:0, visibility:"visible"}, "song")
 .to("#time-end", {visibility:"visible"}, "song-stay")
+.from("#time-1", {duration:1, y:30, alpha:0, visibility:"visible"}, "song")
+.to("#time-1", {visibility:"visible"}, "song-stay")
+.from("#time-2", {duration:1, y:30, alpha:0, visibility:"visible"}, "song")
+.to("#time-2", {visibility:"visible"}, "song-stay")
 .from("#GREASELIGHTNING", {duration:1, y:30, alpha:0, visibility:"visible"}, "song")
 .to("#GREASELIGHTNING", {visibility:"visible"}, "song-stay")
-.from("#song-line-down", {duration:0.5, drawSVG: "0", visibility:"visible"}, "-=0.3")
+.from("#song-line-down", {duration:1, drawSVG: "0", visibility:"visible"}, "song")
 .to("#song-line-down", {visibility:"visible"})
-.to("#song-line-white", {duration:120, x:460});
+.to("#song-line-white", {duration:12, x:160}, "-=0.5");
 
 export function musicAnimation() {
 

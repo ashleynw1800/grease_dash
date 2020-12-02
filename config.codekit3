@@ -202,6 +202,28 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/sequences/musictime.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sequences/musictime-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sequences/musictime2.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sequences/musictime2-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/sequences/right.js": {
 		"bF": 0,
 		"ft": 64,
