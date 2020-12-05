@@ -4,6 +4,7 @@ import { GSDevTools } from "gsap/GSDevTools";
 gsap.registerPlugin(GSDevTools);
 
 import {fordAnimation} from "./sequences/ford.js";
+import {lightAnimation} from "./sequences/light.js";
 import {topAnimation} from "./sequences/top.js";
 import {speedAnimation} from "./sequences/speed.js";
 import {buttonsAnimation} from "./sequences/buttons.js";
@@ -15,10 +16,11 @@ import {speedCounter2} from "./sequences/musictime2.js";
 
 const mainTL = gsap.timeline()
 mainTL.add(fordAnimation())
-        .add(topAnimation())
+        .add(lightAnimation())
+        .add(topAnimation(), "-=0.2")
         .add(speedAnimation(), "up")
+        .add(rpmAnimation(), "-=0.4")
         .add(buttonsAnimation(), "+=0.3")
-        .add(rpmAnimation(), "up")
         .add(musicAnimation(), "+=1")
         .add(startAnimation(), "-=11")
         .add(speedCounter(), "count")
