@@ -1,1 +1,0 @@
-var counterSpeed=1200,topSpeed=58,speedNumber=40,myVar=setInterval(speedCounter2,counterSpeed);export function speedCounter2(){return speedNumber<topSpeed?(speedNumber++,document.getElementById("speedTag2").innerHTML=speedNumber):clearInterval(myVar),speedNumber}

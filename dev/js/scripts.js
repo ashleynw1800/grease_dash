@@ -22,7 +22,7 @@ mainTL.add(fordAnimation())
         .add(rpmAnimation(), "-=0.4")
         .add(buttonsAnimation(), "+=0.3")
         .add(musicAnimation(), "+=1")
-        .add(startAnimation(), "-=11")
+        .add(startAnimation(), "-=11.7")
         .add(speedCounter(), "count")
         .add(speedCounter2(), "count");
 
